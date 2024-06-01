@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Eat-N-Split-App-using-react/static/css/main.59b68e50.css",
+    "main.js": "/Eat-N-Split-App-using-react/static/js/main.c0140489.js",
+    "index.html": "/Eat-N-Split-App-using-react/index.html",
+    "main.59b68e50.css.map": "/Eat-N-Split-App-using-react/static/css/main.59b68e50.css.map",
+    "main.c0140489.js.map": "/Eat-N-Split-App-using-react/static/js/main.c0140489.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59b68e50.css",
+    "static/js/main.c0140489.js"
+  ]
+}
