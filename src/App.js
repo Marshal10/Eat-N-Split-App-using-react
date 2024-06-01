@@ -25,8 +25,13 @@ export default function App() {
       <div className="left">
         <FriendsList />
       </div>
+      <Button>Add Friend</Button>
     </div>
   );
+}
+
+function Button({ children }) {
+  return <button className="btn">{children}</button>;
 }
 
 function FriendsList() {
@@ -58,6 +63,7 @@ function Friend({ friend }) {
         )}
         {friend.balance === 0 && <p>You and {friend.name} are even</p>}
       </div>
+      <Button>Select</Button>
     </li>
   );
 }
