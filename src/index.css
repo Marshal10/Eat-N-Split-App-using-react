@@ -47,3 +47,40 @@ body {
 .btn:hover {
   background-color: var(--color-dark);
 }
+
+.left ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+}
+
+.left ul li {
+  display: grid;
+  grid-template-columns: 4.8rem 1fr auto;
+  align-items: center;
+  column-gap: 1.6rem;
+  padding: 1.2rem;
+  border-radius: 7px;
+  transition: 0.5s;
+}
+
+.selected,
+.left li:hover {
+  background-color: var(--color-lightest);
+}
+
+.left li img {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.green {
+  color: #66a80f;
+}
+
+.red {
+  color: #e03131;
+}
