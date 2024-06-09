@@ -9,8 +9,7 @@ export default function FormSplitBill({ selectedFriend, onSplitBill }) {
 
   function handleSplitBill(e) {
     e.preventDefault();
-
-    if (!bill || !paidByUser) return;
+    if (!bill || paidByUser === "") return;
 
     onSplitBill(whoIsPaying === "user" ? paidByFriend : -paidByUser);
   }
